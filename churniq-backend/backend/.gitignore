@@ -1,0 +1,97 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+
+
+# =========================
+# Java / Spring Boot
+# =========================
+**/target/
+*.class
+*.jar
+*.war
+.gradle/
+
+# =========================
+# Local secrets and certificates
+# =========================
+*.pem
+*.key
+secrets/
+credentials/
+
+# =========================
+# Local database and backups
+# =========================
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# Generated archive
+# =========================
+churniq-backend.zip
+
+
+
+
+# =========================
+# Java / Spring Boot build output
+# =========================
+**/target/
+.gradle/
+
+# =========================
+# Local secrets and certificates
+# =========================
+*.pem
+*.key
+secrets/
+credentials/
+
+# =========================
+# Local database files
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# Local backups
+# =========================
+*.bak
+*.backup
+

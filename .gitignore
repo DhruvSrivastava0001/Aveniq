@@ -1,0 +1,118 @@
+# =========================
+# Python
+# =========================
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python testing/cache
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Raw dataset
+# =========================
+data/raw/
+# =========================
+# Java / Spring Boot build output
+# =========================
+**/target/
+.gradle/
+
+# =========================
+# Local secrets and certificates
+# =========================
+*.pem
+*.key
+secrets/
+credentials/
+
+# =========================
+# Local database files
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# Local backups
+# =========================
+*.bak
+*.backup
+
+# Generated monitoring history and aggregate report snapshots
+backend/runtime/
+
+
+# Machine learning and generated data
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.keras
+data/processed/
+
+# Python virtual environments and secrets
+ENV/
+env/
+*.env.local
+
+# Frontend environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Java / Maven
+**/logs/
+
+
+# Generated datasets and model artifacts
+data/cleaned/
+data/candidate/
+models/
+
+# Local logs
+*.log

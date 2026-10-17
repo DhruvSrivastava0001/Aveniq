@@ -203,3 +203,17 @@ For educational and portfolio purposes unless a separate dataset or dependency l
 - The Intelligence assistant can answer customer-data questions without an external AI key. General-purpose answers use the configured OpenAI-compatible provider and require `OPENAI_API_KEY`; general questions do not require the database to be reachable. Keep secrets out of source control.
 - The telecom batch endpoint derives `tenure_months` from the model training snapshot date, not from the current date or each uploaded file's maximum date.
 - Use `PROJECT_QA_AND_RUNBOOK.md` for startup commands, endpoint checks, and manual end-to-end validation.
+
+
+
+
+## Dashboard Preview
+
+### Overview
+
+![Aveniq dashboard overview](screenshots/dashboard-overview.png)
+
+### Business Insights
+
+![Aveniq business insights](screenshots/dashboard-insights.png)
+

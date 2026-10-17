@@ -347,7 +347,7 @@ function App() {
           </div>
 
           <div>
-            <h1 className="font-bold text-white">ChurnIQ</h1>
+            <h1 className="font-bold text-white">Aveniq</h1>
             <p className="text-xs text-slate-400">
               Customer Intelligence
             </p>

@@ -476,7 +476,7 @@ export default function Intelligence() {
             </div>
             <div>
               <h3 className="font-semibold text-white">
-                ChurnIQ AI assistant
+                Aveniq AI Assistant
               </h3>
               <p className="mt-1 text-xs text-slate-400">
                 Ask about your data or general topics such as Java, SQL, writing, and study.

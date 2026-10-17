@@ -1,6 +1,6 @@
-# ChurnIQ — Customer Churn Intelligence Platform
+# Aveniq — Customer Intelligence Platform
 
-ChurnIQ is a full-stack customer analytics and intelligence portfolio project. It combines an interactive React dashboard, a FastAPI analytics/ML service, a Spring Boot customer API, and MySQL storage. It includes descriptive churn analytics, customer management, CSV import, a prediction demo with an explicit reliability warning, grounded conversational analytics, controlled segment investigation, CSV reporting, and on-demand threshold evaluation.
+Aveniq is a full-stack customer intelligence platform that combines machine learning, churn prediction, customer analytics, and interactive business dashboards to help identify customer churn risks and understand customer behavior.
 
 > **Important model limitation:** previous validation of the included churn model produced ROC-AUC around 0.50, which is close to random ranking. Do not use its probability as a dependable retention decision. The intelligence assistant deliberately relies on observed aggregate metrics rather than treating this model as reliable.
 

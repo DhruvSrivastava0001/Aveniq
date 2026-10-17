@@ -450,7 +450,7 @@ export default function Customers() {
 
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-white">Customer Directory</h1>
 
-          <p className="mt-2 text-sm text-slate-400">Manage customer records stored in your ChurnIQ MySQL database.</p>
+          <p className="mt-2 text-sm text-slate-400">Manage customer records stored in your Aveniq MySQL database.</p>
 
         </div>
 
